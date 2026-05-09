@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$CHILLBULL — Chill. Hold. Moon.</title>
+  <meta name="description" content="$CHILLBULL — Made for Newbies, OGs, and Bagworkers. This doesn't have to be a losing game."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">
+      <img src="photo_2026-05-08_20-25-28.jpg" alt="ChillBull Logo" class="nav-logo-img"/>
+      <span>$CHILLBULL</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="buy.html" class="nav-link">Buy</a></li>
+      <li><a href="join.html" class="nav-link">Join</a></li>
+    </ul>
+    <a href="buy.html" class="nav-cta">BUY NOW</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="buy.html">Buy</a>
+    <a href="join.html">Join</a>
+    <a href="buy.html" class="mob-cta">BUY $CHILLBULL</a>
+  </div>
+
+  <section class="hero">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <canvas id="stars-canvas"></canvas>
+
+    <div class="ticker">
+      <div class="ticker-track">
+        <span>$CHILLBULL</span><span class="sep">|</span><span>CHILL</span><span class="sep">|</span><span>HOLD</span><span class="sep">|</span><span>MOON</span><span class="sep">|</span>
+        <span>$CHILLBULL</span><span class="sep">|</span><span>CHILL</span><span class="sep">|</span><span>HOLD</span><span class="sep">|</span><span>MOON</span><span class="sep">|</span>
+        <span>$CHILLBULL</span><span class="sep">|</span><span>CHILL</span><span class="sep">|</span><span>HOLD</span><span class="sep">|</span><span>MOON</span><span class="sep">|</span>
+      </div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-text fade-up">
+        <div class="badge">LIVE ON SOLANA — PUMP.FUN</div>
+        <h1>The Chillest<br/><span class="grad">Memecoin</span><br/>In The Game.</h1>
+        <p class="hero-desc">Made for <strong>Newbies</strong>, <strong>OGs</strong>, and <strong>Bagworkers</strong> who want to make memecoin great again.<br/>This doesn't have to be a losing game.</p>
+        <p class="mantra">Chill. Hold. Moon.</p>
+        <div class="hero-btns">
+          <a href="buy.html" class="btn-primary">Buy $CHILLBULL</a>
+          <a href="about.html" class="btn-ghost">Learn More</a>
+        </div>
+        <div class="ca-bar">
+          <span class="ca-tag">CA:</span>
+          <span class="ca-addr" id="ca">5Tp9zQ8gQq55ZBZHUoweFRbsGkybGbWmkLcj3AZtpump</span>
+          <button class="ca-copy" id="copybtn">COPY</button>
+        </div>
+      </div>
+      <div class="hero-img fade-right">
+        <div class="rings">
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="ring r3"></div>
+        </div>
+        <img src="photo_2026-05-08_20-25-28.jpg" alt="ChillBull" class="mascot"/>
+      </div>
+    </div>
+    <div class="scroll-down">SCROLL</div>
+  </section>
+
+  <div class="marquee-bar">
+    <div class="marquee-inner">
+      <span>CHILL</span><b>•</b><span>HOLD</span><b>•</b><span>MOON</span><b>•</b>
+      <span>$CHILLBULL</span><b>•</b><span>PUMP.FUN</span><b>•</b><span>SOLANA</span><b>•</b>
+      <span>CHILL</span><b>•</b><span>HOLD</span><b>•</b><span>MOON</span><b>•</b>
+      <span>$CHILLBULL</span><b>•</b><span>PUMP.FUN</span><b>•</b><span>SOLANA</span><b>•</b>
+      <span>CHILL</span><b>•</b><span>HOLD</span><b>•</b><span>MOON</span><b>•</b>
+      <span>$CHILLBULL</span><b>•</b><span>PUMP.FUN</span><b>•</b><span>SOLANA</span><b>•</b>
+    </div>
+  </div>
+
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat fade-up"><div class="stat-val">0%</div><div class="stat-lbl">TAX</div></div>
+        <div class="stat-div"></div>
+        <div class="stat fade-up"><div class="stat-val">1B</div><div class="stat-lbl">SUPPLY</div></div>
+        <div class="stat-div"></div>
+        <div class="stat fade-up"><div class="stat-val">100%</div><div class="stat-lbl">COMMUNITY</div></div>
+        <div class="stat-div"></div>
+        <div class="stat fade-up"><div class="stat-val">SOL</div><div class="stat-lbl">CHAIN</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="simple-section">
+    <div class="container">
+      <p class="simple-quote fade-up">"It could all be so simple."</p>
+      <div class="simple-cards">
+        <div class="sim-card fade-up">
+          <div class="sim-num">01</div>
+          <h3>Chill</h3>
+          <p>No drama. No FUD. Just vibes. Buy the bull, trust the herd, and relax.</p>
+        </div>
+        <div class="sim-card fade-up">
+          <div class="sim-num">02</div>
+          <h3>Hold</h3>
+          <p>Diamond hands only. The weak sell early. The strong hold until the rocket lands.</p>
+        </div>
+        <div class="sim-card fade-up">
+          <div class="sim-num">03</div>
+          <h3>Moon</h3>
+          <p>The destination. Not a question of if — a question of when. We go up together.</p>
+        </div>
+      </div>
+      <div class="simple-cta fade-up">
+        <a href="about.html" class="btn-primary">Read The Manifesto</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="f-logo">$CHILLBULL</div>
+          <p>Chill. Hold. Moon.<br/>It could all be so simple.</p>
+        </div>
+        <div class="footer-nav">
+          <p class="fn-label">Pages</p>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="buy.html">Buy</a>
+          <a href="join.html">Join</a>
+        </div>
+        <div class="footer-nav">
+          <p class="fn-label">Socials</p>
+          <a href="https://x.com/ChillBullPump" target="_blank">X / Twitter</a>
+          <a href="https://t.me/+vTVVRfPf1Uo3ZjIx" target="_blank">Telegram</a>
+          <a href="https://pump.fun" target="_blank">Pump.fun</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>$CHILLBULL is a memecoin. Not financial advice. DYOR. &copy; 2025 $CHILLBULL.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
